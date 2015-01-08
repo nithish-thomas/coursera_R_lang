@@ -1,5 +1,9 @@
 package com.nst.leetcode.simple;
 
+import java.io.FileNotFoundException;
+import java.io.IOError;
+import java.net.InetAddress;
+
 public class Factorial {
 
 	public Factorial() {
@@ -16,25 +20,8 @@ public class Factorial {
 	}
 	
 	public static void main(String[] args) {
-		System.out.println(factorial(5));
+		new Car().display();
 	}
 
 }
 
-class Vehicle{
-	int speed=10;
-	
-	public void display(){
-		System.out.println(speed);
-	}
-}
-
-class Car extends Vehicle{
-	int speed=40;
-	
-	@Override
-	public void display() {
-		super.speed=50;
-		System.out.println(speed);
-	}
-}
