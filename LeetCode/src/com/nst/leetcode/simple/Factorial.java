@@ -1,8 +1,5 @@
 package com.nst.leetcode.simple;
 
-import java.io.FileNotFoundException;
-import java.io.IOError;
-import java.net.InetAddress;
 
 public class Factorial {
 
